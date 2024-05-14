@@ -20,18 +20,17 @@ body {
   border-color: #F05F44;
 }
 
-body:has(.btn:hover) .animate {
-  transform: translatey(-10px);
-  transition: 2s;
-}
-
 .btn:hover {
   background-color:#EE4B08;
   border-color:#EE4B08;
   transform:scale(1.1,1.1);
   transition:1s;
-  transform: translate(0);
 }
+
+/*body:has(.btn:hover) .animate {
+  transform: translatey(-10px);
+  transition: 2s;
+} */
 
 .btn-xl {
   padding: 1rem 2rem;
@@ -48,9 +47,6 @@ h1 {
 height: 10rem;
 }
 
-body:has(.btn:hover) .animate {
-color:blue;
-  }
 /*
   
   hr {
